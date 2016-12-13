@@ -1,36 +1,36 @@
 {
-    "name": "theme-iris",
-    "displayName": "iris",
-    "description": "",
-    "version": "1.0.0-pre",
-    "publisher": "hoisel",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "dark",
-        "theme",
-        "vscode"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Iris",
-                "uiTheme": "vs-dark",
-                "path": "./themes/iris.tmTheme"
-            }
-        ]
-    },
-    "bugs": {
-        "url": "https://github.com/hoisel/theme-iris/issues"
-    },
-    "homepage": "https://github.com/hoisel/theme-iris",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/hoisel/theme-iris"
-    }
+  "name": "theme-iris",
+  "displayName": "iris",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "hoisel",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "vscode"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Iris",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iris.tmTheme"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/hoisel/theme-iris/issues"
+  },
+  "homepage": "https://github.com/hoisel/theme-iris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoisel/theme-iris"
+  }
 }
