@@ -1,7 +1,7 @@
 {
   "name": "theme-iris",
   "displayName": "iris",
-  "description": "",
+  "description": "The Iris theme for VS Code",
   "version": "2.0.0",
   "publisher": "hoisel",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "theme",
     "vscode"
   ],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
