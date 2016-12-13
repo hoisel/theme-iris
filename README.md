@@ -1,6 +1,9 @@
 # Iris theme
 The Iris theme for VS Code.
 
+## Disclaimer
+**Color theme only. [Font](http://www.typography.com/blog/introducing-operator) not included**
+
 ## Screenshots
 
 ### JavaScript
