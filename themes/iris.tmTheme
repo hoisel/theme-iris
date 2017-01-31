@@ -30,7 +30,7 @@
 				<key>caret</key>
 				<string>#d94f52</string>
 				<key>foreground</key>
-				<string>#EBDADA</string>
+				<string>#FFF</string>
 				<key>invisibles</key>
 				<string>#d7d6d0</string>
 				<key>lineHighlight</key>
@@ -39,7 +39,24 @@
 				<string>#005c77</string>
 			</dict>
 		</dict>
-
+	        <!-- 1)Source group -->
+		<dict>
+			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source.ts, 
+		meta.class.ts, 
+		text.html.basic, 
+		source.css.scss
+		</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF</string>
+				<key>background</key>
+				<string>#001820</string>
+			</dict>
+		</dict>
 		 <!-- 1)Comment group -->
 		<dict>
 			<key>name</key>
@@ -49,9 +66,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B9C9C966</string>
+				<string>#455a5e</string>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 			</dict>
 		</dict>
 
@@ -183,12 +200,11 @@
 				<string>italic</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>Support.type</string>
+			<string>support.type</string>
 			<key>scope</key>
-			<string>support.type.js, support.type.ts</string>
+			<string>support.type.primitive</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -228,7 +244,25 @@
 				<string> italic</string>
 			</dict>
 		</dict>
+<dict>
+			<key>name</key>
+			<string>JSDocs</string>
+			<key>scope</key>
+			<string>storage.type.class.jsdoc, 
+				entity.name.type.instance.jsdoc,
+				other.meta.jsdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#455a5e</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
 		
+
+
+
 		<!-- Invalid -->
 		<dict>
 			<key>name</key>
@@ -387,17 +421,12 @@
 			<key>name</key>
 			<string>HTML attribute</string>
 			<key>scope</key>
-			<string>, entity.other.attribute-name.html,
-        , entity.other.attribute-name.event.html,
-        , entity.other.attribute-name.class.html,
-        , entity.other.attribute-name.style.html,
-        , entity.other.attribute-name.id.html,
-        , entity.other.attribute-name.tag.jade</string>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#8CD9FD</string>
-				<key>fontStyle</key>
+                                <key>fontStyle</key>
 				<string> italic</string>
 			</dict>
 		</dict>
