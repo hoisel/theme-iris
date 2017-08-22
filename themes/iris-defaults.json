@@ -1,0 +1,29 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Iris Default Colors",
+	"colors": {
+        "activityBar.background": "#001820",
+        "activityBarBadge.foreground": "#fff",
+        "activityBarBadge.background": "#CA4040",
+        "activityBar.foreground": "#42C7F3",
+        "sideBarTitle.foreground": "#FFF",
+        "sideBarSectionHeader.foreground": "#FFF",
+        "sideBar.background": "#0a1b21",
+        "sideBarSectionHeader.background": "#00202b",
+        "list.hoverBackground": "#002B35",
+        "list.inactiveSelectionBackground": "#002B35",
+        "list.activeSelectionBackground": "#021116",
+        "list.activeSelectionForeground": "#fff",
+        "tab.inactiveBackground": "#00202b",
+        "tab.activeForeground": "#FFF",
+        "input.background": "#02262B",
+        "input.foreground": "#fff",
+        "input.placeholderForeground": "#4C789CDE",
+        "editorLineNumber.foreground": "#42CDF327",
+        "editor.lineHighlightBackground": "#42D8F30E",
+        "editor.background": "#001820",
+        "scrollbarSlider.activeBackground": "#42D8F388",
+        "scrollbarSlider.hoverBackground": "#42D8F33D",
+        "scrollbarSlider.background": "#0E272C"
+      }
+}

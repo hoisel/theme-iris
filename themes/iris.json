@@ -1,0 +1,171 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Iris",
+  "type": "dark",
+  "include": "./iris-defaults.json",
+  "tokenColors": [
+    {
+      "name": "Constants",
+      "scope": ["constant"],
+      "settings": {
+        "foreground": "#E67A9E"
+      }
+    },
+    {
+      "name": "Strings e Regex",
+      "scope": [
+        "string",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end",
+        "meta.group.regexp",
+        "constant.other.character-class.regexp",
+        "punctuation.definition.group.regexp",
+        "keyword.operator.quantifier.regexp",
+        "constant.character.escape.backslash.regexp"
+      ],
+      "settings": {
+        "foreground": "#F5B00E"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#FA4383"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["storage.modifier", "keyword"],
+      "settings": {
+        "foreground": "#8CD9FD"
+      }
+    },
+
+    {
+      "name": "Primitives",
+      "scope": ["support.type.primitive"],
+      "settings": {
+        "foreground": "#CFFC8A",
+        "fontStyle": " italic"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": ["storage", "keyword.control.export", "variable.language.this"],
+      "settings": {
+        "foreground": "#8CD9FD",
+        "fontStyle": " italic"
+      }
+    },
+    {
+      "name": "Declarations",
+      "scope": ["punctuation.decorator", "meta.decorator", "meta.method.declaration", "entity.name.function"],
+      "settings": {
+        "foreground": "#FFD2A7"
+      }
+    },
+    {
+      "scope": ["punctuation.decorator"],
+      "settings": {
+        "foreground": "#E6A46A"
+      }
+    },
+    {
+      "scope": [
+        "meta",
+        "variable.other.object",
+        "variable.other.property",
+        "variable.other.readwrite",
+        "variable.parameter",
+        "meta.object-literal.key",
+        "variable.other.readwrite.alias",
+        "punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#FFF",
+        "background": "#001820"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.definition.block.tag.jsdoc",
+        "punctuation.definition.bracket.curly.begin.jsdoc",
+        "punctuation.definition.bracket.curly.end.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#455a5e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#A6E22ED6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Html tags",
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.other.html",
+        "entity.name.tag.block.any.html",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "meta.scope.between-tag-pair.html",
+        "entity.name.tag.inline.any.html"
+      ],
+      "settings": {
+        "foreground": "#FA4383"
+      }
+    },
+    {
+      "name": "Html text",
+      "scope": ["text.html.basic"],
+      "settings": {
+        "foreground": "#FFF",
+        "background": "#001820"
+      }
+    },
+    {
+      "name": "Html attributes",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#8CD9FD",
+        "fontStyle": " italic"
+      }
+    },
+
+    {
+      "name": "CSS classes",
+      "scope": ["entity.other.attribute-name.class.css"],
+      "settings": {
+        "foreground": "#CFFC8A"
+      }
+    },
+    {
+      "name": "CSS tags",
+      "scope": ["entity.name.tag.css"],
+      "settings": {
+        "foreground": "#FA4383"
+      }
+    },
+    {
+      "name": "CSS properties",
+      "scope": ["support.type.property-name.css", "support.type.vendored.property-name"],
+      "settings": {
+        "foreground": "#67C6F5"
+      }
+    }
+  ]
+}
