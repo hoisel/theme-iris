@@ -1,37 +1,37 @@
 {
-  "name": "theme-iris",
-  "displayName": "iris",
-  "description": "The Iris theme for VS Code",
-  "version": "2.0.0",
-  "publisher": "hoisel",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark",
-    "theme",
-    "vscode"
-  ],
-  "icon": "icon.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Iris",
-        "uiTheme": "vs-dark",
-        "path": "./themes/iris.json"
-      }
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/hoisel/theme-iris/issues"
-  },
-  "homepage": "https://github.com/hoisel/theme-iris",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hoisel/theme-iris"
-  }
+    "name": "theme-iris",
+    "displayName": "iris",
+    "description": "The Iris theme for VS Code",
+    "version": "2.1.0",
+    "publisher": "hoisel",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark",
+        "theme",
+        "vscode"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iris",
+                "uiTheme": "vs-dark",
+                "path": "./themes/iris.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/hoisel/theme-iris/issues"
+    },
+    "homepage": "https://github.com/hoisel/theme-iris",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hoisel/theme-iris"
+    }
 }
