@@ -130,6 +130,25 @@
       }
     },
     {
+      "name": "Html especial tags",
+      "scope": ["meta.tag.inline.any.html", "meta.tag.block.any.html"],
+      "settings": {
+        "foreground": "#8CD9FD"
+      }
+    },
+    {
+      "name": "Html ids",
+      "scope": [
+        "entity.other.attribute-name.id.html",
+        "meta.toc-list.id.html",
+        "punctuation.separator.key-value.html",
+        "meta.attribute-with-value.id.html"
+      ],
+      "settings": {
+        "foreground": "#2FCF3A"
+      }
+    },
+    {
       "name": "Html text",
       "scope": ["text.html.basic"],
       "settings": {
